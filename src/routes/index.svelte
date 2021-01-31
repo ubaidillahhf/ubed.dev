@@ -35,17 +35,15 @@
   <Landing
     title="Experienced"
     summary="Full stack software engineer with {yearsExperience} years experience, Specialized for NodeJS & Hybrid React Native."
-    imageUrl="/cartoon_caricature.png"
+    imageUrl="/caricature.png"
   >
     <span slot="cta">
-      <!--            <Button href="/dennis_krasnov_resume.pdf" buttonRow primary targetBlank on:click={logDownloadEvent}>download resume</Button><Button href="#projects" buttonRow>view projects</Button>-->
       <Button href="#projects" buttonRow primary>view projects</Button><Button
-        href="/dennis_krasnov_resume.pdf"
+        href="/ubaidillah_resume.pdf"
         buttonRow
         targetBlank
         on:click={logDownloadEvent}>download resume</Button
       >
-      <!--            <Button href="#contact" buttonRow primary>contact me</Button><Button href="/dennis_krasnov_resume.pdf" buttonRow targetBlank on:click={logDownloadEvent}>download resume</Button>-->
     </span>
   </Landing>
 </Section>
@@ -56,48 +54,30 @@
     <Skill
       imageUrl="/skills/backend.svg"
       title="Backend Development"
-      summary="<b>Spring</b>-based <b>Java/Kotlin</b> for <b>REST</b> and <b>gRPC</b> services. <b>Postgre</b>, <b>Redis</b>, <b>Firestore</b> DBs. Project configuration with <b>Gradle</b>."
+      summary="<b>NodeJs (Express)</b>, <b>PHP (Lumen)</b> for <b>REST</b> services and <b>NodeJs</b> with <b>Apollo Server</b> for <b>GraphQL</b>. <b>MySQL</b>, <b>Postgre</b> DBs. <b>Eloquent, Sequelize</b> ORM."
     />
 
     <Skill
       imageUrl="/skills/web.svg"
       title="Web Development"
-      summary="Responsive websites in <b>HTML5</b>, <b>CSS/SCSS</b>. <b>Rx/Redux</b>-based <b>React</b> applications in <b>ES6 JavaScript</b> and <b>Typescript</b>."
-    />
-
-    <Skill
-      imageUrl="/skills/systems.svg"
-      title="Systems Programming"
-      summary="Large <b>C++</b> projects. Safe multithreaded code in <b>Rust</b>. Deep understanding of performant <b>data structures</b> and <b>algorithms</b>."
+      summary="Responsive websites in <b>HTML5</b>, <b>CSS</b>. <b>Bootstrap</b> or <b>Semantic UI</b> Framework. <b>Redux</b>-based <b>ReactJs</b> applications in <b>ES6 JavaScript</b>, <b>React Hook</b>."
     />
 
     <Skill
       imageUrl="/skills/mobile.svg"
       title="Mobile Development"
-      summary="<b>Dart/Flutter</b> mobile apps for both <b>iOS</b> and <b>Android</b>. Stream-based <b>BLoC</b> state management. <b>Firebase</b>-powered backend."
-    />
-
-    <Skill
-      imageUrl="/skills/ux.svg"
-      title="UX Design"
-      summary="Interactive app prototyping in <b>Figma</b>. <b>Usability Testing</b> with real users. Frequent iterations based on feedback."
-    />
-
-    <Skill
-      imageUrl="/skills/business.svg"
-      title="Full Business Cycle"
-      summary="Acquiring customers, gathering <b>requirements</b>, managing <b>expectations</b>, timely execution, long-term <b>maintenance</b>."
+      summary="<b>React Native</b> mobile apps for both <b>iOS</b> and <b>Android</b>. Deep Linking, Payment Gateway, Axios, React Navigation, Codepush, Push Navigation, Fingerprint."
     />
   </Skills>
 </Section>
 
 <Section watermarkPadding>
-  <WatermarkHeader title="testimonials" } />
+  <WatermarkHeader title="recommendation" />
   <Testimonial
-    imageUrl="/testimonial/igor.png"
-    quote="Dennis is an experienced web developer, with an insight into the nuances of modern website design and implementation, compatibility with different platforms/devices ..."
-    name="Igor Kolotilin, Ph.D."
-    position="CSO & President of Solar Grants Biotechnology"
+    imageUrl="/testimonial/aldo.jpeg"
+    quote="Specialist Backend Developer (REST API & GRAPHQL), pengalaman lebih dari 1,5 tahun. Memiliki Soft skill yang baik, open minded dan tidak mudah panik ,strong mentality person. Baik dalam menjaga komunikasi dan kenyamanan didalam tim. Paham flow business dan pernah mengerjakan project ERP module Sales & Procurement dengan skala yang tidak kecil."
+    name="Aldo Ignata Chandra"
+    position="Software Engineer at Virus Digital Indonesia"
   />
 </Section>
 
@@ -105,76 +85,70 @@
   <WatermarkHeader title="work" />
   <Experiences>
     <Experience
-      imageUrl="/work/cgi.svg"
-      position="Software Developer Intern"
-      company="CGI"
+      imageUrl="/work/codespace.jpeg"
+      position="Founder, CEO, and Backend"
+      company="CV Codespace Indonesia"
       startDate="Jan 2021"
-      endDate="Apr 2021"
-      points={[
-        "Currently working on Spring Boot microservices in digital platform team",
-      ]}
-    />
-
-    <Experience
-      imageUrl="/work/raywenderlich.svg"
-      position="Flutter Technical Editor"
-      company="Razeware"
-      startDate="Oct 2020"
       endDate="present"
       points={[
-        'Edited <a href="https://www.raywenderlich.com/16628777-theming-a-flutter-app-getting-started" target=_blank>Theming a Flutter App: Getting Started</a> article, more on the way', // TODO: a, b, c articles
-        "Ensured technical accuracy of content utilizing expert knowledge of Flutter",
-        '<a href="https://raywenderlich.com" target=_blank>raywenderlich.com</a> provides high-quality tutorials averaging 90k daily pageviews',
+        "Create REST with lumen PHP and NodeJs",
+        "Make Sequelize, Eloquent ORM and Raw Query Sometimes",
+        "Ensure the company implements vision and mission to achieve the goals ",
+        "Demonstrates what's possible",
       ]}
     />
 
     <Experience
-      imageUrl="/work/ultimate-software.svg"
-      position="Software Engineering Intern"
-      company="Ultimate Software"
-      startDate="Sep 2019"
-      endDate="Dec 2019"
+      imageUrl="/work/interbiss.png"
+      position="Software Engineer Backend"
+      company="PT Integra Bisnis Solusi"
+      startDate="Des 2019"
+      endDate="present"
       points={[
-        "Developed OAuth2 authorization microservices in identity platform team",
-        "Added custom permissions claim to JWT on critical ForgeRock identity gateway serving 51M users, refactored to prevent zero trust authorization recursion",
-        "Identified production-level architecture issue in event sourcing aggregate which would break future migrations, documented and escalated to tech lead",
-        "Java, Axon Framework, Spring, CQRS, event sourcing, ForgeRock IG",
+        "Create ERP Project with Enterprise Scale",
+        "Responsible for Mapping Business Process",
+        "Develop Backend Enterprise Resource Planning with NodeJs, ExpressJs, Graphql with Sequelize ORM",
       ]}
     />
 
     <Experience
-      imageUrl="/work/sgbiotec.png"
+      imageUrl="/work/buatin.png"
+      position="COO and CO-Founder"
+      company="Buatin Indonesia"
+      startDate="Mei 2018"
+      endDate="Sep 2019"
+      points={[
+        "Responsible for Operational Activities in the Catering Business to Communicate with Partners and Catering Delivery.",
+      ]}
+    />
+
+    <Experience
+      imageUrl="/work/rssa.jpeg"
+      position="Software Engineer Intern"
+      company="RSUD Dr. Saiful Anwar Malang"
+      startDate="Aug 2018"
+      endDate="Okt 2018"
+      points={[
+        "Create Web Apps Scheduling For IPAL",
+        "Create With Bootstrap Frontend Framework",
+        "Create With Express NodeJs with Postgre DB",
+      ]}
+    />
+
+    <Experience
+      imageUrl="/work/self.jpg"
       position="Freelance Developer"
-      company="Solar Grants Biotechnology"
-      startDate="Jun 2018"
-      endDate="Aug 2019"
-      points={[
-        "Acquired customer, gathered requirements, managed customer expectations",
-        'Planned, designed, developed, released, and maintained <a href="https://sgbiotec.com" target="sgbiotec">sgbiotec.com</a>, an online store selling lab-grade fluorescent proteins',
-        "Designed UI with structured product description and custom shopping cart, integrated with Shopify storefront API",
-        "React, MobX, Shopify storefront API",
-      ]}
-    />
-
-    <Experience
-      imageUrl="/work/pocket-trade-show.png"
-      position="Freelance Developer"
-      company="Pocket Trade Show"
-      startDate="Jul 2016"
-      endDate="Aug 2017"
-      points={[
-        "Created Pocket Trade Show, an online tradeshow platform that connects buyers and sellers",
-        "Developed web frontend using MVC pattern in PHP, implemented file upload to S3 bucket",
-        "Restructured MySQL database to accomadate web in addition to mobile app, migrated existing data",
-        "PHP 7, jQuery, MySQL, AWS S3",
-      ]}
+      company="Self Employee Project"
+      startDate="Jan 2015"
+      endDate="Okt 2018"
+      points={["Project with Wordpress, Codeigniter Framework PHP, HTML etc"]}
     />
   </Experiences>
 </Section>
 
 <Section id="projects" watermarkPadding>
   <WatermarkHeader title="projects" />
-  <Projects>
+  <!-- <Projects>
     <Project
       name="Creative FOSS"
       summary="Open Source Collaboration Tool"
@@ -208,21 +182,21 @@
       projectId="portfolio"
       imageUrl="/project-thumbnails/portfolio.png"
     />
-  </Projects>
+  </Projects> -->
 </Section>
 
 <Section watermarkPadding dark>
   <WatermarkHeader title="education" />
   <Experiences>
     <Experience
-      imageUrl="/education/waterloo.png"
+      imageUrl="/education/ub.png"
       position="Bachelor of Computer Science"
-      company="University of Waterloo"
-      startDate="Sep 2018"
-      endDate="Apr 2023"
+      company="University of Brawijaya"
+      startDate="Mar 2015"
+      endDate="Sep 2019"
       points={[
-        "$2000 President’s Scholarship of Distinction scholarship for 95% admission average",
-        "Coursework: data structure analysis, OOP programming in C++, algorithm analysis, operating systems design, computer architecture",
+        "Join many organization like BEM University, BEM Faculty, Hima Informatics and many event For Management Softskill",
+        "Coursework: Project Management, data structure analysis, OOP programming in Java, algorithm analysis, computer architecture, Web Programming, Software Engineering",
       ]}
     />
   </Experiences>

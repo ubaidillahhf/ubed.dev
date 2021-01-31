@@ -1,10 +1,8 @@
 # Ubed Dev Portfolio V2
 
-![Build and Deploy CI/CD](https://github.com/Dennis-Krasnov/Portfolio/workflows/Build%20and%20Deploy%20CI/CD/badge.svg)
-
 Built a portfolio website showcasing skills and experience. Check it out at server.dreamcode.site!
 
-[View live](https://server.dreamcode.site/)
+[View live](https://ubed.dev/)
 
 ### How to run
 

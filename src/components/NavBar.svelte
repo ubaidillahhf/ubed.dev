@@ -21,7 +21,7 @@
     <div class="horizontal">
       <a href="/#" id="logo" on:click={eraseHash}>
         <img src="/logoq.png" alt="Ubed Dev Logo" />
-        <span>Ubed [ DEV ]</span>
+        <span>Ubed DEV</span>
       </a>
 
       <div class="expand" />
@@ -34,7 +34,7 @@
       </div>
 
       <span class="resume-download">
-        <Button href="/dennis_krasnov_resume.pdf" targetBlank
+        <Button href="/ubaidillah_resume.pdf" targetBlank
           >download resume</Button
         >
       </span>

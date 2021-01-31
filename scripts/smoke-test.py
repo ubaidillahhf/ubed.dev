@@ -9,4 +9,4 @@ if res.status_code != 200:
     sys.exit("Status code wasn't 200")
 
 if "Dennis Krasnov" not in res.text:
-    sys.exit("Content doesn't contain 'Dennis Krasnov'")
+    sys.exit("Content doesn't contain 'Ubaidilah'")
