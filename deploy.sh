@@ -1,3 +1,4 @@
+sudo ufw allow ssh
 rm -rf * 
 git pull origin main
 yarn install
