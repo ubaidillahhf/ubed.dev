@@ -1,6 +1,3 @@
 sudo ufw allow ssh
+sudo ufw reload
 rm -rf * 
-git pull origin main
-yarn install
-yarn build
-yarn start-pm2
