@@ -34,7 +34,7 @@
 <Section>
   <Landing
     title="Experienced"
-    summary="Full stack software engineer with {yearsExperience} years experience, Specialized for NodeJS & Hybrid React Native."
+    summary="Wong Biasa {yearsExperience} years experience, Specialized for NodeJS & Hybrid React Native."
     imageUrl="/caricature.png"
   >
     <span slot="cta">
