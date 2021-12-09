@@ -3,7 +3,7 @@
   import Experiences from "../components/Experiences.svelte";
   import Landing from "../components/Landing.svelte";
   import Project from "../components/Project.svelte";
-  import Projects from "../components/Projects.svelte";
+  // import Projects from "../components/Projects.svelte";
   import Section from "../components/Section.svelte";
   import Skill from "../components/Skill.svelte";
   import Skills from "../components/Skills.svelte";
@@ -38,7 +38,7 @@
     imageUrl="/caricature.png"
   >
     <span slot="cta">
-      <Button href="#projects" buttonRow primary>view projects</Button><Button
+      <Button href="https://blog.ubed.dev" buttonRow primary targetBlank>Read Blogs</Button><Button
         href="/ubaidillah_resume.pdf"
         buttonRow
         targetBlank
@@ -145,10 +145,10 @@
     />
   </Experiences>
 </Section>
-
+<!-- 
 <Section id="projects" watermarkPadding>
   <WatermarkHeader title="projects" />
-  <!-- <Projects>
+  <Projects>
     <Project
       name="Creative FOSS"
       summary="Open Source Collaboration Tool"
@@ -182,10 +182,10 @@
       projectId="portfolio"
       imageUrl="/project-thumbnails/portfolio.png"
     />
-  </Projects> -->
-</Section>
+  </Projects>
+</Section> -->
 
-<Section watermarkPadding dark>
+<Section watermarkPadding>
   <WatermarkHeader title="education" />
   <Experiences>
     <Experience
