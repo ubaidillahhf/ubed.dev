@@ -27,10 +27,10 @@
       <div class="expand" />
 
       <div class="scroll-links">
-        <NavBarButton hash="skills">Skills</NavBarButton>
-        <NavBarButton hash="work">Work</NavBarButton>
-        <NavBarButton hash="projects">Projects</NavBarButton>
-        <!--                <NavBarButton hash="contact">contact</NavBarButton>-->
+        <NavBarButton hash="#skills">Skills</NavBarButton>
+        <NavBarButton hash="#work">Work</NavBarButton>
+        <NavBarButton hash="#projects">Projects</NavBarButton>
+        <NavBarButton hash="https://blog.ubed.dev"><a href="https://blog.ubed.dev" target="_blank" style="color:#3CB489">Blog</a></NavBarButton>
       </div>
 
       <span class="resume-download">

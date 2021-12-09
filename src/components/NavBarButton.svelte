@@ -2,7 +2,7 @@
 	export let hash: string;
 </script>
 
-<a href="#{hash}"><slot/></a>
+<a href="{hash}"><slot/></a>
 
 <style lang="scss">
 	a {
