@@ -1,6 +1,6 @@
 # Ubed Dev Portfolio V2
 
-Built a portfolio website showcasing skills and experience. Check it out at server.dreamcode.site!
+Built a portfolio website showcasing skills and experience. Check it out at https://ubed.dev!
 
 [View live](https://ubed.dev/)
 

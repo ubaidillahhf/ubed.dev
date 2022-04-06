@@ -82,7 +82,7 @@
 </Section>
 
 <Section id="work" watermarkPadding dark>
-  <WatermarkHeader title="work" />
+  <WatermarkHeader title="riwayat kerja" />
   <Experiences>
     <Experience
       imageUrl="/work/codespace.jpeg"
